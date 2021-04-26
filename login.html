@@ -1,0 +1,30 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/main.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="auth.html" method="post" class="login-form">
+        <div class="container">
+            <label for="email"><b>Username</b></label>
+            <input type="text" placeholder="Enter Email" name="email" required>
+
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+
+            <input type="hidden" name="redirect" value="login">
+
+            <button type="submit">Login</button>
+        </div>
+    </form>
+    <div class="container signin">
+        <a href="/register.html">Register</a>
+    </div>
+</body>
+
+</html>
